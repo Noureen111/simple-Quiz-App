@@ -1,0 +1,113 @@
+body{
+    background-color: rgb(231, 103, 124);
+}
+.grid{
+    box-sizing: border-box;
+    margin-top: 100px;
+    align-content: center;
+    text-align: center;
+    align-items: center;
+    border: 2px solid black;
+    
+}
+
+#firstContainer{
+    align-items: center !important;
+    /* text-align: center !important; */
+    margin-top: 100px;
+    box-shadow: 2px 3px 15px grey;
+    padding: 30px;
+    padding-left: 100px !important;
+    /* background-color: lightsteelblue; */
+}
+
+#firstInput{
+    outline: none;
+    border: none;
+    box-shadow: 1px 2px 5px grey;
+    border-radius: 15px;
+    padding: 5px;
+    overflow: hidden;
+}
+
+h4{
+    color: black;   
+    padding: 3px;
+}
+
+#enter{
+    border: none;
+    outline: none;
+    border-radius: 15px;
+    padding: 5px;
+    cursor: pointer;
+    background-color: seashell;
+}
+
+#enter:hover{
+    background-color: darkcyan;
+    color: white !important;
+    text-decoration: none !important;
+}
+#a{
+    color: black !important;
+    text-decoration: none !important;
+}
+
+#a:hover{
+    color: white !important;
+    text-decoration: none;
+    background-color: darkcyan;
+}
+
+.container{
+    background-color: white;
+    /* box-shadow: 5px 5px 15px rgb(161, 157, 157); */
+}
+
+#btn0, #btn1, #btn2, #btn3 {
+    width: 250px;
+    font-size: 20px;
+    border: 1px solid #1D3C6A;
+    margin: 10px 30px 10px 10px;
+    padding: 10px 10px;
+    background-color: rgb(231, 103, 124);
+    color: whitesmoke;
+    border: 1px solid rgb(231, 103, 124);
+    box-shadow: 5px 5px 10px grey;
+}
+
+#progress, #questions{
+    padding: 15px;
+    color: rgb(231, 103, 124);
+}
+
+#btn0:hover, #btn1:hover, #btn2:hover, #btn3:hover{
+    background-color: rgb(221, 44, 74);
+}
+
+h1{
+    font-size: 45px;
+}
+
+.hidden{
+    display: none;
+}
+
+.newHeading{
+    color: whitesmoke;
+}
+
+.newPara{
+    color: whitesmoke;
+    font-size: 25px;
+}
+
+.newCont{
+    background-color: rgb(231, 103, 124);
+    color: whitesmoke;
+}
+
+.para2{
+    font-size: 35px !important;
+}

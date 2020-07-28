@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Quiz App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<center>
+    <div class="container" id="cont" style=" align-items: center; 
+    align-content: center; width: 600px; margin-top: 140px;">
+        <div id="quiz">
+            <h1 style="color:rgb(231, 103, 124); padding: 10px;
+            padding-top: 25px;">Qiuz</h1>
+            <hr>
+
+            <p id="questions" style="text-align: left;
+            font-size: 30px;">Hyper Text Markup Language stands for?</p>
+            <div class="buttons">
+                <button id="btn0" onclick="func(this)">JQuery</button>
+                <button id="btn1" onclick="func(this)">HTML</button>
+                <button id="btn2" onclick="func(this)">XHTML</button>
+                <button id="btn3" onclick="func(this)">All</button>
+            </div>
+
+            <hr style="margin-top: 40px;">
+            <footer>
+                <p id="progress" style="text-align: left; 
+                color: rgb(231, 103, 124);">Question 1 of 5</p>
+            </footer>
+
+        </div>
+    </div>
+
+</center>
+
+    <script src="app.js"></script>
+</body>
+</html>
